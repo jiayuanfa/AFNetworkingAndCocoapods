@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04FA2E698BA1582515F5E155 /* libPods-AF3TestOne-AF3TestOneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CB7FFFD5AFCC5908042F27 /* libPods-AF3TestOne-AF3TestOneTests.a */; };
+		2BA0CA20F2D67B72AF3AE639 /* libPods-AF3TestOne-AF3TestOneUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D111185A452D6CD0CDF1D86 /* libPods-AF3TestOne-AF3TestOneUITests.a */; };
 		2E42F4B71F68CEF200A6DBF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E42F4B61F68CEF200A6DBF2 /* main.m */; };
 		2E42F4BA1F68CEF200A6DBF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E42F4B91F68CEF200A6DBF2 /* AppDelegate.m */; };
 		2E42F4BD1F68CEF200A6DBF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E42F4BC1F68CEF200A6DBF2 /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		2E42F4C51F68CEF200A6DBF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E42F4C31F68CEF200A6DBF2 /* LaunchScreen.storyboard */; };
 		2E42F4D01F68CEF200A6DBF2 /* AF3TestOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E42F4CF1F68CEF200A6DBF2 /* AF3TestOneTests.m */; };
 		2E42F4DB1F68CEF200A6DBF2 /* AF3TestOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E42F4DA1F68CEF200A6DBF2 /* AF3TestOneUITests.m */; };
+		3070AAA32CBC12F662FF6F6A /* libPods-AF3TestOneUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D6CF7D03789FC6C80F8557 /* libPods-AF3TestOneUITests.a */; };
+		3A6BABAF0B44A34B19D81595 /* libPods-AF3TestOneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E33BDB79EEC09FB86B58B4 /* libPods-AF3TestOneTests.a */; };
+		6F0AA828DCD4E75FD53DD259 /* libPods-AF3TestOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC751BE23AE1EDE9846BD07 /* libPods-AF3TestOne.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E33BDB79EEC09FB86B58B4 /* libPods-AF3TestOneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AF3TestOneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F697214D6D12AF9A19C2242 /* Pods-AF3TestOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AF3TestOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-AF3TestOne/Pods-AF3TestOne.release.xcconfig"; sourceTree = "<group>"; };
+		113B8642B21F6A07DC56029B /* Pods-AF3TestOneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AF3TestOneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AF3TestOneTests/Pods-AF3TestOneTests.release.xcconfig"; sourceTree = "<group>"; };
+		26ACF01A9D540C1AF4F9BF7D /* Pods-AF3TestOneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AF3TestOneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AF3TestOneUITests/Pods-AF3TestOneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		294FE6A8C03E82D2FC9A2776 /* Pods-AF3TestOne-AF3TestOneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AF3TestOne-AF3TestOneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AF3TestOne-AF3TestOneTests/Pods-AF3TestOne-AF3TestOneTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C8C796A6E40299E0D478DFA /* Pods-AF3TestOneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AF3TestOneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AF3TestOneUITests/Pods-AF3TestOneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E42F4B21F68CEF200A6DBF2 /* AF3TestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AF3TestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E42F4B61F68CEF200A6DBF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E42F4B81F68CEF200A6DBF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,16 @@
 		2E42F4D61F68CEF200A6DBF2 /* AF3TestOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AF3TestOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E42F4DA1F68CEF200A6DBF2 /* AF3TestOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AF3TestOneUITests.m; sourceTree = "<group>"; };
 		2E42F4DC1F68CEF200A6DBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E42F4E81F68D5E000A6DBF2 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		50D3FCDBCC1CD13130961CE1 /* Pods-AF3TestOne-AF3TestOneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AF3TestOne-AF3TestOneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AF3TestOne-AF3TestOneTests/Pods-AF3TestOne-AF3TestOneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D111185A452D6CD0CDF1D86 /* libPods-AF3TestOne-AF3TestOneUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AF3TestOne-AF3TestOneUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A25AABEF782313F8EDDD23C /* Pods-AF3TestOne-AF3TestOneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AF3TestOne-AF3TestOneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AF3TestOne-AF3TestOneUITests/Pods-AF3TestOne-AF3TestOneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4D6CF7D03789FC6C80F8557 /* libPods-AF3TestOneUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AF3TestOneUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80AE1116970734AC1A99143 /* Pods-AF3TestOneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AF3TestOneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AF3TestOneTests/Pods-AF3TestOneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8CB7FFFD5AFCC5908042F27 /* libPods-AF3TestOne-AF3TestOneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AF3TestOne-AF3TestOneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE1ACBD1A9F9FB2768E44E6 /* Pods-AF3TestOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AF3TestOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AF3TestOne/Pods-AF3TestOne.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC751BE23AE1EDE9846BD07 /* libPods-AF3TestOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AF3TestOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D4C4EACDC64AD9684848E3 /* Pods-AF3TestOne-AF3TestOneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AF3TestOne-AF3TestOneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AF3TestOne-AF3TestOneUITests/Pods-AF3TestOne-AF3TestOneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0AA828DCD4E75FD53DD259 /* libPods-AF3TestOne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6BABAF0B44A34B19D81595 /* libPods-AF3TestOneTests.a in Frameworks */,
+				04FA2E698BA1582515F5E155 /* libPods-AF3TestOne-AF3TestOneTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +96,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3070AAA32CBC12F662FF6F6A /* libPods-AF3TestOneUITests.a in Frameworks */,
+				2BA0CA20F2D67B72AF3AE639 /* libPods-AF3TestOne-AF3TestOneUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		131AF4001941C9DA14391DB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDE1ACBD1A9F9FB2768E44E6 /* Pods-AF3TestOne.debug.xcconfig */,
+				0F697214D6D12AF9A19C2242 /* Pods-AF3TestOne.release.xcconfig */,
+				A80AE1116970734AC1A99143 /* Pods-AF3TestOneTests.debug.xcconfig */,
+				113B8642B21F6A07DC56029B /* Pods-AF3TestOneTests.release.xcconfig */,
+				26ACF01A9D540C1AF4F9BF7D /* Pods-AF3TestOneUITests.debug.xcconfig */,
+				2C8C796A6E40299E0D478DFA /* Pods-AF3TestOneUITests.release.xcconfig */,
+				50D3FCDBCC1CD13130961CE1 /* Pods-AF3TestOne-AF3TestOneTests.debug.xcconfig */,
+				294FE6A8C03E82D2FC9A2776 /* Pods-AF3TestOne-AF3TestOneTests.release.xcconfig */,
+				E0D4C4EACDC64AD9684848E3 /* Pods-AF3TestOne-AF3TestOneUITests.debug.xcconfig */,
+				7A25AABEF782313F8EDDD23C /* Pods-AF3TestOne-AF3TestOneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2E42F4A91F68CEF200A6DBF2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,8 @@
 				2E42F4CE1F68CEF200A6DBF2 /* AF3TestOneTests */,
 				2E42F4D91F68CEF200A6DBF2 /* AF3TestOneUITests */,
 				2E42F4B31F68CEF200A6DBF2 /* Products */,
+				131AF4001941C9DA14391DB0 /* Pods */,
+				487E832E878DC35B2CFDA350 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +185,19 @@
 			path = AF3TestOneUITests;
 			sourceTree = "<group>";
 		};
+		487E832E878DC35B2CFDA350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E42F4E81F68D5E000A6DBF2 /* libAFNetworking.a */,
+				DCC751BE23AE1EDE9846BD07 /* libPods-AF3TestOne.a */,
+				05E33BDB79EEC09FB86B58B4 /* libPods-AF3TestOneTests.a */,
+				A4D6CF7D03789FC6C80F8557 /* libPods-AF3TestOneUITests.a */,
+				C8CB7FFFD5AFCC5908042F27 /* libPods-AF3TestOne-AF3TestOneTests.a */,
+				5D111185A452D6CD0CDF1D86 /* libPods-AF3TestOne-AF3TestOneUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E42F4DF1F68CEF200A6DBF2 /* Build configuration list for PBXNativeTarget "AF3TestOne" */;
 			buildPhases = (
+				2C1D25E668457FDE435758CC /* [CP] Check Pods Manifest.lock */,
 				2E42F4AE1F68CEF200A6DBF2 /* Sources */,
 				2E42F4AF1F68CEF200A6DBF2 /* Frameworks */,
 				2E42F4B01F68CEF200A6DBF2 /* Resources */,
+				F76BBA4D0AA445A5423E9457 /* [CP] Embed Pods Frameworks */,
+				28D8D841E6BB7EF8BD763368 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E42F4E21F68CEF200A6DBF2 /* Build configuration list for PBXNativeTarget "AF3TestOneTests" */;
 			buildPhases = (
+				46D7D75F7B537A62D5435F34 /* [CP] Check Pods Manifest.lock */,
 				2E42F4C71F68CEF200A6DBF2 /* Sources */,
 				2E42F4C81F68CEF200A6DBF2 /* Frameworks */,
 				2E42F4C91F68CEF200A6DBF2 /* Resources */,
+				0AFF90C70C65AD7BB0715B16 /* [CP] Embed Pods Frameworks */,
+				AC0B544A891278428DE00475 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E42F4E51F68CEF200A6DBF2 /* Build configuration list for PBXNativeTarget "AF3TestOneUITests" */;
 			buildPhases = (
+				FB97766F69F15A5FBFBA3E9F /* [CP] Check Pods Manifest.lock */,
 				2E42F4D21F68CEF200A6DBF2 /* Sources */,
 				2E42F4D31F68CEF200A6DBF2 /* Frameworks */,
 				2E42F4D41F68CEF200A6DBF2 /* Resources */,
+				867AAF4B527D0260A54A178D /* [CP] Embed Pods Frameworks */,
+				2FB606D9CF0B2D3AD20DA75B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +334,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AFF90C70C65AD7BB0715B16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AF3TestOneTests/Pods-AF3TestOneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28D8D841E6BB7EF8BD763368 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AF3TestOne/Pods-AF3TestOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C1D25E668457FDE435758CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FB606D9CF0B2D3AD20DA75B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AF3TestOneUITests/Pods-AF3TestOneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46D7D75F7B537A62D5435F34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		867AAF4B527D0260A54A178D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AF3TestOneUITests/Pods-AF3TestOneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC0B544A891278428DE00475 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AF3TestOneTests/Pods-AF3TestOneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F76BBA4D0AA445A5423E9457 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AF3TestOne/Pods-AF3TestOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB97766F69F15A5FBFBA3E9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E42F4AE1F68CEF200A6DBF2 /* Sources */ = {
@@ -422,28 +627,35 @@
 		};
 		2E42F4E01F68CEF200A6DBF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE1ACBD1A9F9FB2768E44E6 /* Pods-AF3TestOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AF3TestOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fage.AF3TestOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		2E42F4E11F68CEF200A6DBF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F697214D6D12AF9A19C2242 /* Pods-AF3TestOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AF3TestOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fage.AF3TestOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		2E42F4E31F68CEF200A6DBF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80AE1116970734AC1A99143 /* Pods-AF3TestOneTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AF3TestOneTests/Info.plist;
@@ -456,6 +668,7 @@
 		};
 		2E42F4E41F68CEF200A6DBF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113B8642B21F6A07DC56029B /* Pods-AF3TestOneTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AF3TestOneTests/Info.plist;
@@ -468,6 +681,7 @@
 		};
 		2E42F4E61F68CEF200A6DBF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26ACF01A9D540C1AF4F9BF7D /* Pods-AF3TestOneUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AF3TestOneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +693,7 @@
 		};
 		2E42F4E71F68CEF200A6DBF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8C796A6E40299E0D478DFA /* Pods-AF3TestOneUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AF3TestOneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +722,7 @@
 				2E42F4E11F68CEF200A6DBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E42F4E21F68CEF200A6DBF2 /* Build configuration list for PBXNativeTarget "AF3TestOneTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +731,7 @@
 				2E42F4E41F68CEF200A6DBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E42F4E51F68CEF200A6DBF2 /* Build configuration list for PBXNativeTarget "AF3TestOneUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +740,7 @@
 				2E42F4E71F68CEF200A6DBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
